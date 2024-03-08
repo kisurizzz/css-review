@@ -1,7 +1,41 @@
-h1{
+/* h1{
     color: red;
     text-align: center;
-}
-/* body{
-    background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 } */
+
+/* body{
+    background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+} */
+
+.main{
+    text-align: center;
+    color: purple;
+}
+#header{
+    color: blue;
+    text-align: center;
+}
+p{
+    color: blueviolet;
+}
+p{
+    color: aqua;
+}
+
+
+.flex-item{
+    /* background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
+    border: 2px solid pink;
+    width: 300px;
+    height: 200px;
+    border-radius: 60px;
+    padding: 50px;
+    background-color: green;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
